@@ -11,6 +11,6 @@ PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/jiayu/s3plus_n560a/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/GIONEE/GIONEE_WBL7511/overlay
 
-$(call inherit-product, vendor/jiayu/s3plus_n560a/s3plus_n560a-vendor-blobs.mk)
+$(call inherit-product, vendor/GIONEE/GIONEE_WBL7511/GIONEE_WBL7511-vendor-blobs.mk)
